@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--부트스트립 사용-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/Sungmin.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <title></title>
+        <style>
+        #frame1{
+            width: 400px;
+            margin: 0 auto;
+        }
+        #frame1 div{
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        .join1-button
+        {
+        border-radius: 5px;
+        width: 300px;
+        border: none;
+        letter-spacing: .5em;
+        font-size: 1.2em;
+        background-color:#000808;
+        color: white;
+        height: 40px;
+        margin-left: 50px;
+        }
+        .join1-button:active{
+            background-color: blue;
+        color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+              <a href="index.html">
+                <img src="img/logo.jpg" alt="logo">
+              </a>
+            </div>
+            <div id="menubar" >
+              <ul>
+                <li><a href="index.html" style="color:#C7C7C7"> HOME </a></li>
+                <li><a href="eshop.html"> ESHOP </a></li>
+                <li><a href="regist.html"> Trade-Regist </a></li>
+                <li><a href="About.html"> ABOUT </a></li>
+                <li><a href="Member-login.html"> LOG IN </a></li>
+                <li><a href="#Mypage.html"> <span class="glyphicon glyphicon-user"></span></a></li>
+              </ul>
+            </div>
+        
+          </div>
+          <br><br><br>
+
+        <div class="container">
+        <main>
+            <div><h1>JOIN</h1></div>
+            <div>Hello we are MiddleNote</div>
+            <br>
+            <br>
+            <div id="frame1">
+            <form method="POST" enctype="multipart/form-data">
+                <div>
+                    <label for="name" class="after">E-Mail *</label>
+                    <input id="email" name="email" type="text" style="width: 98%; margin: 0px; height: 46px; padding: 0px;">
+                </div>
+                <div>
+                    <label for="name" class="after">Password *</label>
+                    <input id="pass1" name="pass1" type="text" style="width: 98%; margin: 0px; height: 46px; padding: 0px;">
+                </div>
+                <div>
+                    <label for="name" class="after">Check Password*</label>
+                    <input id="pass2" type="text"  style="width: 98%; margin: 0px; height: 46px; padding: 0px;">
+                </div>
+                <div>
+                    <label for="name" class="after">Name *</label><br>
+                    <input id="name" name="name" type="text" style="width: 98%; margin: 0px; height: 46px; padding: 0px;">
+                </div>
+                <div>
+                    <label class="after" >성별 *</label><br>
+                    <input id="man" name="gender" type="radio" value="man">
+                    <label for="man" id="man">남자</label>
+                    <input id="women" name="gender" type="radio" value="women">
+                    <label for="women" id="women">여자</label>
+                </div>
+                <div>
+                    <label class="after" >Phone Number *</label><br>
+                    <input id="phone" name="phone" type="text" style="width: 29%; margin: 0px; height: 46px; padding: 0px;"> -
+                    <input id="phone" name="phone" type="text" style="width: 29%; margin: 0px; height: 46px; padding: 0px;"> -
+                    <input id="phone" name="phone" type="text" style="width: 29%; margin: 0px; height: 46px; padding: 0px;">
+                </div>
+                <div>
+                    <label class="after" >Address *</label><br>
+                    <input id="address" name="address" type="text" style="width: 98%; margin: 0px; height: 46px; padding: 0px; margin-bottom: 10px;"><br>
+                    <input id="detail_address" name="detail_address" type="text"style="width: 98%; margin: 0px; height: 46px; padding: 0px;"><br>
+                </div>
+                <div>
+                    <label class="after">생년월일 *</label><br>
+                    <select id="yearid" onchange="lastday()">
+                    </select>
+                    <select id="monthid" onchange="lastday()">
+                    </select>
+                    <select id ="dayid">
+                    </select>
+                    <script>
+                        var today = new Date();
+                        var today_year= today.getFullYear();
+                        var index=0;
+                        for(var y=today_year; y>=1990; y--)
+                        {
+                            document.getElementById('yearid').options[index]=new Option(y,y);
+                            index++;
+                        }
+                        index=0;
+                        for(var y=1; y<=12; y++)
+                        {
+                            document.getElementById('monthid').options[index]=new Option(y,y);
+                            index++;
+                        }
+                        function lastday(){
+                            var Year=document.getElementById('yearid').value;
+                            var Month=document.getElementById('monthid').value;
+                            console.log(Year,Month);
+                            let day=new Date(Year,Month,0)
+                            console.log(day);
+                            let daylast=day.getDate();
+                            var dayindex_len=document.getElementById('dayid').length;
+                            if(daylast>dayindex_len)
+                            {
+                            for(var y=(dayindex_len+1);y<=daylast;y++)
+                            {
+                            document.getElementById('dayid').options[y-1]=new Option(y,y);
+                            }
+                        }
+                        else if(daylast<dayindex_len)
+                        {
+                            for(var y=dayindex_len;y>=daylast;y--)
+                            {
+                            document.getElementById('dayid').options[y]=null;
+                            }
+                        }
+                        }
+                    </script>
+                </div>
+                <div>
+                    <button class="join1-button" type="button" onclick="formValidator()">Sign Up</button>
+                    <script>
+                        function formValidator()
+                        {
+                            let email=document.getElementById('email');
+                            const regExp=/^.*(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
+                            let phone=document.getElementById('phone');
+                            const regExp1=/^[0-9]*$/;
+                            console.log(regExp1.value);
+                        if(!regExp.test(email.value)){
+                                alert("이메일는 영어와 숫자,특수문자를 조합해야합니다");
+                                    }
+                        else{
+                            if(!regExp1.test(phone.value))
+                            {
+                                alert("0~9숫자로 - 없이 작성해야합니다");
+                            }
+                            else{
+                                alert("가입성공!");
+                              location.href="Member-login.html";
+                            }
+                        }
+
+                        }
+                    </script>
+                </div>
+            </form>
+        </div>
+        </main>
+    </div>
+    <div id="footer">
+        <div id="footerL">
+          <p>© 2022  <a href="">IN GOLD WE TRUST PARIS</a></p>
+          <p><a href="">NEWS</a></p>
+          <p><a href="">LEGALS</a></p>
+          <p><a href="">SHIPPING & RETURNS</a></p>
+          <a href=""><img src="img/insta.jpg" alt="instagram" width="12px" height="12px"></a>
+          <a href=""><img src="img/facebook.jpg" alt="facebook" width="12px" height="12px"></a>
+        </div>
+        <div id=footerR>
+          <input type="text" placeholder="ENTER EMAIL">
+          <input type="button" value="JOIN">
+        </div>
+
+      </div>
+    </body> 
+</html>
