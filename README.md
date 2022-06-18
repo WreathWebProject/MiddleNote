@@ -1,2 +1,11 @@
-# MiddleNote
-2022 OpenSourceWebSoftware Project about 향수중고거래
+# 향수 중고거래 웹사이트 MiddleNote
+
+## 개발 기간
+2022 3월 6일 ~ 6월 17일
+
+## 개발 목적
+믿고 사용할 향수플랫폼이 없어서
+
+## 개발 일정
+
+
