@@ -41,14 +41,17 @@
 
 ![Eshop](https://user-images.githubusercontent.com/42410000/174448120-bcbd69af-3510-4c0f-85ca-af8fe85f5ddc.gif)
 
-## ✅ Eshop Detail page
-
-![디테일페이지](https://user-images.githubusercontent.com/42410000/174448651-42d25fea-2468-4d20-9ee7-7fedfd214d0f.gif)
-
-
 ## ✅ Category Move
 
 ![카테고리움짤](https://user-images.githubusercontent.com/42410000/174438330-fb1951b1-228b-426b-b90c-43fcd92f2327.gif)
+
+## ✅ Register Page
+
+![등록페이지](https://user-images.githubusercontent.com/42410000/174449059-5db0a76c-2218-40df-a837-bb6a14804b79.gif)
+
+## ✅ Eshop Detail page
+
+![디테일페이지](https://user-images.githubusercontent.com/42410000/174448651-42d25fea-2468-4d20-9ee7-7fedfd214d0f.gif)
 
 ## ✅ Google Geocoding API
 
