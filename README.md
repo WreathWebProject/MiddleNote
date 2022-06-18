@@ -14,6 +14,16 @@
 
 </details>
 
+## 개발 규칙
+<details markdown="1">
+<summary><strong>규칙!</strong></summary>
+ <h3>1. Divde Develop Part </h3>
+ <h3>2. Make Issue </h3>
+ <h3>3. Make branch accroding to issue number  </h3>
+ <h3>4. Final Modification merge to main branch  </h3>
+
+</details>
+
 ## OSS
 <img src="https://user-images.githubusercontent.com/42410000/174438533-2fb5357c-c08d-4f44-a84d-7f52ea630fb0.png" width="30%" height="30%"/>|
 <img src="https://user-images.githubusercontent.com/42410000/174438539-1dac7dc0-3825-4240-8c7d-9106e3ba361d.jpg" width="30%" height="30%"/>|
