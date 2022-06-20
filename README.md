@@ -27,7 +27,7 @@
 ## OSS
 <img src="https://user-images.githubusercontent.com/42410000/174438533-2fb5357c-c08d-4f44-a84d-7f52ea630fb0.png" width="30%" height="30%"/><span style="color:red"> | </span>
 <img src="https://user-images.githubusercontent.com/42410000/174438539-1dac7dc0-3825-4240-8c7d-9106e3ba361d.jpg" width="30%" height="30%"/>|
-<img src="https://user-images.githubusercontent.com/42410000/174438544-5663023c-4e53-4bb8-af4d-3aa70139fc44.png" width="30%" height="30%"/>|
+<img src="https://user-images.githubusercontent.com/42410000/174438544-5663023c-4e53-4bb8-af4d-3aa70139fc44.png" width="30%" height="30%"/>
 
 ## ✅ Event Page
 
