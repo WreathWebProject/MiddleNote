@@ -1,12 +1,12 @@
-# 향수 중고거래 웹사이트 MiddleNote
-
-## 개발 기간
+# MiddleNote :pushpin:
+## 향수 중고거래 웹사이트 :bell:
+## 개발 기간 :triangular_flag_on_post:
 2022 5월 6일 ~ 6월 17일
 
-## 개발 목적
+## :soccer: 개발 목적
 믿고 사용할 향수중고거래플랫폼이 없어서
 
-## 개발 일정
+## :calendar: 개발 일정
 <details markdown="1">
 <summary><strong>일정표</strong></summary>
 
@@ -14,7 +14,7 @@
 
 </details>
 
-## 개발 규칙
+## :green_book: 개발 규칙
 <details markdown="1">
 <summary><strong>규칙!</strong></summary>
  <h3>1. Divde Develop Part </h3>
@@ -24,7 +24,7 @@
 
 </details>
 
-## OSS
+## :page_with_curl: OSS
 <img src="https://user-images.githubusercontent.com/42410000/174438533-2fb5357c-c08d-4f44-a84d-7f52ea630fb0.png" width="30%" height="30%"/><span style="color:red"> | </span>
 <img src="https://user-images.githubusercontent.com/42410000/174438539-1dac7dc0-3825-4240-8c7d-9106e3ba361d.jpg" width="30%" height="30%"/>|
 <img src="https://user-images.githubusercontent.com/42410000/174438544-5663023c-4e53-4bb8-af4d-3aa70139fc44.png" width="30%" height="30%"/>
