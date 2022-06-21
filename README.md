@@ -3,6 +3,25 @@
 ## 개발 기간 :triangular_flag_on_post:
 <b> 2022 5월 6일 ~ 6월 17일 </b>
 
+## :family: 팀원 소개
+<details markdown="1">
+<summary><strong>팀원</strong></summary>
+
+* 팀장 정종현(jong-jh) [Github](https://github.com/jong-jh) <br>
+    * BootStrap을 이용한 Register Page 구현 
+    * BootStrap을 이용한 Main Page 구현
+    * BootStrap을 이용한 About Page 구현
+* 팀원 권성민(kwonja) [Github](https://github.com/kwonja) <br>
+    * Jquery를 이용한 Scroll Event Page 구현
+    * JavaScript를 이용한 로그인/회원가입 Page 구현
+    * Google Map Geocoding API를 이용한 출발/도착지 & 직선거리 계산 구현
+    * Express를 이용한 Server 구현
+* 팀원 손영재(youngjaeee) [Github](https://github.com/youngjaeee) <br> 
+    * BootStrap을 이용한 Eshop Page 구현
+    * BootStrap을 이용한 Eshop Detail Page 구현
+    * Local Storage를 사용한 Data 관리
+</details>
+
 ## :soccer: 개발 목적
 <b> 믿고 사용할 향수 중고거래 플랫폼이 없어서 </b>
 
@@ -14,15 +33,36 @@
 
 </details>
 
-## :green_book: 개발 규칙
+## :blue_book: 깃허브 규칙
 <details markdown="1">
 <summary><strong>규칙!</strong></summary>
  <h3>1. Divde Develop Part </h3>
  <h3>2. Make Issue </h3>
  <h3>3. Make branch accroding to issue number  </h3>
  <h3>4. Final Modification merge to main branch  </h3>
-
 </details>
+
+## :green_book: 버젼
+<details markdown="1">
+<summary><strong>버젼!</strong></summary>
+ <h3>Visual Code 1.68.1</h3>
+ <h3>BootStrap v5.0.2</h3>
+ <h3>Jqery 1.11.3</h3>
+ <h3>Node Js v16.15.0</h3>
+ <h3>Express 4.18.1</h3>
+ </details>
+ 
+ ## :closed_book: 설치방법
+<details markdown="1">
+<summary><strong>설치 방법!</strong></summary>
+ <h3>1. Install Visual Code</h3>
+ <h3>2. Make File[name : web] </h3>
+ <h3>3. Check Version [File]->[Open Folder]->[name : web] </h3>
+ <h3>5. Run 'alt + b' or F5[Debug]</h3>
+</details>
+
+## :orange_book: 개발 로직
+![로직](https://user-images.githubusercontent.com/42410000/174809693-6b5e835c-6188-46be-988a-aeae028f3be2.png)
 
 ## :wrench: OSS
 <img src="https://user-images.githubusercontent.com/42410000/174438533-2fb5357c-c08d-4f44-a84d-7f52ea630fb0.png" width="30%" height="30%"/><span style="color:red"> | </span>
@@ -61,3 +101,5 @@
 
 ![소개](https://user-images.githubusercontent.com/42410000/174448148-a4bbd66c-fc15-4545-9ad6-fb3bc3cecba8.gif)
 
+## ✅ 시연영상
+https://www.youtube.com/watch?v=-hr88ofYFq4
