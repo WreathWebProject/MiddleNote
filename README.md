@@ -64,11 +64,6 @@
 ## :orange_book: 개발 로직
 ![로직](https://user-images.githubusercontent.com/42410000/174809693-6b5e835c-6188-46be-988a-aeae028f3be2.png)
 
-## :wrench: OSS
-<img src="https://user-images.githubusercontent.com/42410000/174438533-2fb5357c-c08d-4f44-a84d-7f52ea630fb0.png" width="30%" height="30%"/><span style="color:red"> | </span>
-<img src="https://user-images.githubusercontent.com/42410000/174438539-1dac7dc0-3825-4240-8c7d-9106e3ba361d.jpg" width="30%" height="30%"/>|
-<img src="https://user-images.githubusercontent.com/42410000/174438544-5663023c-4e53-4bb8-af4d-3aa70139fc44.png" width="30%" height="30%"/>
-
 ## ✅ Event Page
 
 ![이벤트움짤](https://user-images.githubusercontent.com/42410000/174438090-6a8295d0-0ba0-4c9b-b973-b8b22634d550.gif)
