@@ -1,7 +1,9 @@
 # Team Soul :pushpin:
-## 향수 중고거래 웹사이트 MiddleNote :bell:
+
 ## 개발 기간 :triangular_flag_on_post:
 <b> 2022 5월 6일 ~ 6월 17일 </b>
+
+## :notebook: 향수 중고거래 웹사이트 MiddleNote
 
 ## :family: 팀원 소개
 <details markdown="1">
