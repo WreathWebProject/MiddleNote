@@ -1,10 +1,10 @@
 # MiddleNote :pushpin:
 ## 향수 중고거래 웹사이트 :bell:
 ## 개발 기간 :triangular_flag_on_post:
-2022 5월 6일 ~ 6월 17일
+<b> 2022 5월 6일 ~ 6월 17일 </b>
 
 ## :soccer: 개발 목적
-믿고 사용할 향수중고거래플랫폼이 없어서
+<b> 믿고 사용할 향수 중고거래 플랫폼이 없어서 </b>
 
 ## :calendar: 개발 일정
 <details markdown="1">
